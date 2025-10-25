@@ -76,7 +76,7 @@ Clustering via **K‑Means / GMM / DBSCAN**, profiling customer behavior to driv
 
 ---
 
-## 🏅 Top repositories (stable cards)
+## 🏅 Top repositories
 <!-- Using repo pin cards instead of the flaky "Top contributed repositories" widget -->
 <p align="center">
   <a href="https://github.com/Princu1999/VisionNarrate">
