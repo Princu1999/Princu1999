@@ -2,7 +2,7 @@
 <!-- Profile README for @Princu1999 -->
 <p align="center">
   <!-- Replace assets/hero.png with your own banner (prefer 840–960 px wide, dark-mode friendly) -->
-  <img src="assets/hero.avif" alt="Princu — AI/ML Engineer" width="860">
+  <img src="assests/hero.avif" alt="Princu — AI/ML Engineer" width="860">
 </p>
 
 <h1 align="center">Hi, I'm <a href="https://github.com/Princu1999">Princu</a> 👋</h1>
