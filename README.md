@@ -80,7 +80,7 @@ Clustering via **K‑Means / GMM / DBSCAN**, profiling customer behavior to driv
 <!-- Using repo pin cards instead of the flaky "Top contributed repositories" widget -->
 <p align="center">
   <a href="https://github.com/Princu1999/VisionNarrate">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Princu1999&repo=VisionNarrate" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Princu1999&repo=Vision-Narrate" />
   </a>
   <a href="https://github.com/Princu1999/NIR-FAKE">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=Princu1999&repo=NIR-FAKE" />
