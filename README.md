@@ -7,82 +7,94 @@
 
 <p align="center">
   <a href="https://github.com/Princu1999"><img src="https://img.shields.io/badge/GitHub-Princu1999-181717?logo=github" /></a>
-  <img src="https://komarev.com/ghpvc/?username=Princu1999&style=flat-square" alt="views"/>
-  <a href="mailto:"><img src="https://img.shields.io/badge/Contact-email%20me-blue" alt="email"/></a>
+  <a href="mailto:princusingh252@gmail.com"><img src="https://img.shields.io/badge/Email-princusingh252%40gmail.com-blue" alt="email"/></a>
+  <a href="https://www.linkedin.com/in/princu1999/"><img src="https://img.shields.io/badge/LinkedIn-@princu1999-0A66C2?logo=linkedin&logoColor=white" /></a>
+  <a href="https://huggingface.co/Princu1999"><img src="https://img.shields.io/badge/HuggingFace-Princu1999-FFD21E?logo=huggingface&logoColor=000" /></a>
 </p>
 
 ---
 
 ## 🚀 About me
-- I build end‑to‑end ML systems with a focus on **vision–language**, **data‑free knowledge distillation**, and **practical MLOps**.
-- Comfortable taking projects from **research prototype → clean, modular repositories → deployable demos** (Spaces/Gradio).
-- Open to collaborations and internships where I can ship real value quickly.
+I build end‑to‑end ML solutions with a strong focus on **vision–language models**, **deepfake detection**, and **efficient training/serving**. I enjoy taking ideas from **research** ➜ **clean, modular code** ➜ **production‑ready demos** (Hugging Face Spaces/Gradio, Docker). I’m currently exploring **data‑free knowledge distillation** and **lightweight on‑device inference**.
+
+### Core strengths
+- **Hands‑on ML engineering**: feature pipelines, reproducible training, robust eval, CI for model code.
+- **DL for CV/VL**: Transformers (BLIP/CLIP/SigLIP), CNNs, ConvLSTMs, sequence models.
+- **MLOps**: experiment tracking, artifact versioning, containerized training & inference, profiling & optimization.
+- **Product thinking**: translate business goals to metrics (AUROC/AUPRC/EER, SMAPE), create usable demos, and report clear ROI.
 
 ---
 
 ## 🧰 Tech stack
-<p>
-  <!-- Languages -->
-  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?logo=c%2B%2B&logoColor=white" />
-  <!-- ML / DL -->
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white" />
-  <img src="https://img.shields.io/badge/HuggingFace-FFD21E?logo=huggingface&logoColor=000" />
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=white" />
-  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?logo=opencv&logoColor=white" />
-  <!-- Data & Viz -->
-  <img src="https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white" />
-  <img src="https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white" />
-  <img src="https://img.shields.io/badge/Matplotlib-11557c?logo=plotly&logoColor=white" />
-  <!-- DevOps -->
-  <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?logo=githubactions&logoColor=white" />
-  <img src="https://img.shields.io/badge/MLflow-0194E2?logo=mlflow&logoColor=white" />
+**Languages**: Python, C/C++  
+**DL/ML**: PyTorch, TensorFlow/Keras, Hugging Face Transformers/PEFT, scikit‑learn, OpenCV  
+**Data/Viz**: NumPy, Pandas, Matplotlib/Plotly  
+**MLOps/Infra**: Docker, GitHub Actions, MLflow/W&B (workflow ready), Gradio/Spaces, Linux
+
+---
+
+## 🔥 Featured projects (industry‑oriented highlights)
+
+### 1) Adversarial Knowledge Distillation (AKD) — PyTorch
+Distills a **ResNet‑34 teacher** into **compact ResNet‑18 students** using a lightweight generator (no original training data). Clean modules (models/engine/utils), scripts for training/eval, and results tracking.
+- **Why it matters**: shrink models for **edge deployment** with minimal accuracy drop and **no data sharing**.
+- **Focus**: KD loss scheduling, generator‑driven synthesis, reproducibility.
+- Repo: <a href="https://github.com/Princu1999/Data-Free-Knowledge-Distillation">Data‑Free Knowledge Distillation</a>
+
+### 2) VisionNarrate — BLIP‑based Image Narration (Accessibility)
+Generates **context‑aware, emotion‑sensitive** descriptions from images for visually‑impaired users; modular training + eval.
+- **Impact**: better readability and empathy vs. baselines (e.g., **METEOR 0.42 vs 0.28**, **BLEU‑4 0.18 vs 0.12**).  
+- **Stack**: BLIP fine‑tuning, Gradio demo, reproducible scripts.
+- Repo: <a href="https://github.com/Princu1999/VisionNarrate">VisionNarrate</a> • Demo: <a href="https://huggingface.co/Princu1999">Hugging Face</a>
+
+### 3) NIR‑FAKE — Deepfake Detection Dataset (Research)
+Curating a near‑infrared (NIR) dataset with **face‑swap** and **complete‑body‑removal** forgeries; standardized **eval protocol** (AccR/AccF/OvA, **AUROC**, **AUPRC**, **EER**, **FPR@TPR**).
+- **Why it matters**: expands detection beyond RGB; forensic tools for **low‑light & surveillance** domains.
+- Repo: <a href="https://github.com/Princu1999/NIR-FAKE">NIR‑FAKE</a>
+
+### 4) Cloud Movement Prediction — ConvLSTM Nowcasting (contrib.)
+End‑to‑end pipeline with **Stacked ConvLSTM** and optical flow for cloud detection & motion prediction.
+- **Use cases**: weather risk, solar energy planning, aviation operations.
+- Upstream: <a href="https://github.com/Vimal9900/Satellite-Imagery-Based-Cloud-Detection-and-Movement-Prediction">repo</a> • Demo: <a href="https://huggingface.co/spaces/Princu1999/Cloud_Predictor_App">Hugging Face Space</a>
+
+### 5) Credit‑Card Customer Segmentation — Unsupervised ML
+Clustering via **K‑Means / GMM / DBSCAN**, profiling customer behavior to drive targeted campaigns.
+- **Business lens**: cohort insights, churn risk, and cross‑sell strategies.
+- Repo: <a href="https://github.com/Princu1999/Credit-Card-Customer-Segmentation">link</a>
+
+
+---
+
+## 📊 GitHub stats
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Princu1999&show_icons=true&count_private=true&rank_icon=github" />
+  <img height="170" src="https://streak-stats.demolab.com?user=Princu1999" />
+</p>
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Princu1999&layout=compact&langs_count=8" />
 </p>
 
 ---
 
-## 🔥 Featured projects
-> A few repos people should check first.
-
-- **Data‑Free Knowledge Distillation (AKD)** – Modular PyTorch implementation of **adversarial KD** (ResNet‑34 → compact ResNet‑18 students) with a tiny image generator and clean training/eval scripts.  
-  <a href="https://github.com/Princu1999/Data-Free-Knowledge-Distillation">
-    ▶︎ Repository
+## 🏅 Top repositories (stable cards)
+<!-- Using repo pin cards instead of the flaky "Top contributed repositories" widget -->
+<p align="center">
+  <a href="https://github.com/Princu1999/VisionNarrate">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Princu1999&repo=VisionNarrate" />
   </a>
-
-- **Vision Narrate** – A BLIP‑based image narration system aimed at accessibility; generates **context‑aware, emotion‑sensitive** captions with a modular training/eval pipeline.  
-  <a href="https://github.com/Princu1999/Vision-Narrate">▶︎ Repository</a>
-
-- **NIR‑FAKE (research dataset)** – Early work toward a **deepfake dataset** in the near‑infrared (NIR) domain, introducing a new forgery type (complete body removal) along with face‑swap baselines.  
-  <a href="https://github.com/Princu1999/NIR-FAKE">▶︎ Repository</a>
-
-- **Credit‑Card Customer Segmentation** – Unsupervised clustering of credit‑card customers using **K‑Means, GMM & DBSCAN** with clear notebooks and analysis.  
-  <a href="https://github.com/Princu1999/Credit-Card-Customer-Segmentation">▶︎ Repository</a>
-
-- **Cloud Movement Prediction (contrib.)** – End‑to‑end pipeline for cloud detection/motion nowcasting with **Stacked ConvLSTM** and optical‑flow features. Live demo on Hugging Face Spaces.  
-  <a href="https://github.com/Vimal9900/Satellite-Imagery-Based-Cloud-Detection-and-Movement-Prediction">▶︎ Upstream repo</a> •
-  <a href="https://huggingface.co/spaces/Princu1999/Cloud_Predictor_App">Live demo</a>
-
-> Tip: I keep student/assignment repos public for transparency; featured items above are best for understanding my interests and code style.
-
----
-
-## 📈 GitHub stats
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Princu1999&show_icons=true&count_private=true&rank_icon=github" />
-  <img height="165" src="https://streak-stats.demolab.com?user=Princu1999" />
+  <a href="https://github.com/Princu1999/NIR-FAKE">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Princu1999&repo=NIR-FAKE" />
+  </a>
 </p>
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Princu1999&layout=compact&langs_count=8" />
+  <a href="https://github.com/Princu1999/Credit-Card-Customer-Segmentation">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Princu1999&repo=Credit-Card-Customer-Segmentation" />
+  </a>
+  <a href="https://github.com/Princu1999/Data-Free-Knowledge-Distillation">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Princu1999&repo=Data-Free-Knowledge-Distillation" />
+  </a>
 </p>
 
----
-
-## 🏅 Top contributed repositories
-<p>
-  <img src="https://github-contributor-stats.vercel.app/api?username=Princu1999&limit=5&combine_all_yearly_contributions=true" />
-</p>
 
 ---
 
@@ -94,13 +106,14 @@
 ---
 
 ## 📫 Reach me
-- Email ID: princusingh252@gmail.com
+- Email: <a href="mailto:princusingh252@gmail.com">princusingh252@gmail.com</a>  
+- LinkedIn: <a href="https://www.linkedin.com/in/princu1999/">@princu1999</a>  
+- Hugging Face: <a href="https://huggingface.co/Princu1999">Princu1999</a>  
 - GitHub: <a href="https://github.com/Princu1999">@Princu1999</a>
-- LinkedIn: <a href="https://www.linkedin.com/in/princu1999/">@princu1999</a>
 
 <!--
 How to use:
-1) Rename this file to README.md and place it at the root of a new repo also called `Princu1999`,
-   OR commit it to a repo named exactly like your username to make it your GitHub profile README.
-2) Customize contact links and add/remove badges as you prefer.
+1) Create a repo named exactly your username: `Princu1999`.
+2) Place this file as README.md at the root of that repo (it becomes your profile page).
+3) Optionally pin your top repositories, and keep the "Featured projects" section updated with metrics/links.
 -->
