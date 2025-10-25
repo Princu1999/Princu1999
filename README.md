@@ -26,7 +26,7 @@
 
 ---
 
-## 🚀 About me
+## About me
 I design and ship **CV/VL systems** end‑to‑end: data → training → evaluation → demo.  
 Recent work includes **data‑free knowledge distillation** for compact models and **NIR deepfake detection**.  
 Open to **AI/ML Engineer** roles where model quality, reliability, and time‑to‑impact matter.
@@ -39,8 +39,7 @@ Open to **AI/ML Engineer** roles where model quality, reliability, and time‑to
 
 ---
 
-## 🔥 Featured projects
-> Each card focuses on a real problem, the results, and why it matters.
+## Featured projects
 
 ### 1) Adversarial Knowledge Distillation (AKD) — PyTorch
 Distills a **ResNet‑34 teacher** into **compact ResNet‑18 students** using a lightweight generator (no original training data). Clean modules (models/engine/utils), scripts for training/eval, and run tracking.
@@ -69,11 +68,10 @@ Clustering via **K‑Means / GMM / DBSCAN**, profiling customer behavior to driv
 - **Business lens:** cohort insights, churn risk flags, and cross‑sell strategies.  
 - **Links:** <a href="https://github.com/Princu1999/Credit-Card-Customer-Segmentation">Repository</a>
 
-> I keep coursework repos public for transparency. The above five are the best entry points for quality and impact.
 
 ---
 
-## 📦 Project snapshots
+## Project snapshots
 | Project | What it solves | Key metrics | Links |
 |---|---|---|---|
 | **VisionNarrate** | Accessible image captions | METEOR **0.42**, BLEU‑4 **0.18** | [Repo](https://github.com/Princu1999/VisionNarrate) • [HF](https://huggingface.co/Princu1999) |
@@ -84,7 +82,7 @@ Clustering via **K‑Means / GMM / DBSCAN**, profiling customer behavior to driv
 
 ---
 
-## 🧰 Tech stack & Skills matrix
+## Tech stack & Skills matrix
 **Languages**: Python, C/C++  
 **DL/ML**: PyTorch, TensorFlow/Keras, Hugging Face Transformers/PEFT, scikit‑learn, OpenCV  
 **Data/Viz**: NumPy, Pandas, Matplotlib/Plotly  
@@ -99,7 +97,7 @@ Clustering via **K‑Means / GMM / DBSCAN**, profiling customer behavior to driv
 
 ---
 
-## 🛠 How I work
+## How I work
 - **Reproducible runs:** fixed seeds, saved configs, deterministic backends.  
 - **Clear eval:** task‑appropriate metrics (AUROC/AUPRC/EER, SMAPE) + ablations.  
 - **Deployable demos:** Gradio/Spaces for fast stakeholder feedback.  
@@ -142,7 +140,7 @@ jobs:
 
 ---
 
-## 🏅 Top repositories (stable cards)
+## Top repositories (stable cards)
 <p align="center">
   <a href="https://github.com/Princu1999/VisionNarrate">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=Princu1999&repo=Vision-Narrate&cache_seconds=7200" />
@@ -162,14 +160,14 @@ jobs:
 
 ---
 
-## 💬 Developer quote
+## Developer quote
 <p align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=vertical&theme=default&quoteCategory=programming" alt="dev quote"/>
 </p>
 
 ---
 
-## 📫 Contact
+## Contact
 - Email: <a href="mailto:princusingh252@gmail.com">princusingh252@gmail.com</a>  
 - LinkedIn: <a href="https://www.linkedin.com/in/princu1999/">@princu1999</a>  
 - Hugging Face: <a href="https://huggingface.co/Princu1999">Princu1999</a>  
