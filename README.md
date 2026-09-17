@@ -1,20 +1,17 @@
-
 <!-- Profile README for @Princu1999 -->
 <p align="center">
-  <!-- Replace assets/hero.png with your own banner (prefer 840–960 px wide, dark-mode friendly) -->
-  <img src="assests/hero.avif" alt="Princu — AI/ML Engineer" width="460">
+  <img src="assests/hero.avif" alt="Princu — GenAI & Agentic AI Engineer" width="460">
 </p>
 
 <h1 align="center">Hi, I'm <a href="https://github.com/Princu1999">Princu</a> 👋</h1>
 <p align="center">
-  <b>MTech (AI) • Computer Vision & Vision‑Language • Generative Modeling • MLOps</b>
+  <b>GenAI & Agentic AI Engineer • RAG Systems • ML Ops • Backend Engineering</b>
 </p>
 
 <p align="center">
   <a href="#-featured-projects">Projects</a> •
-  <a href="#-project-snapshots">Snapshots</a> •
-  <a href="#-tech-stack--skills-matrix">Tech</a> •
-  <a href="#-how-i-work">Process</a> •
+  <a href="#-tech-stack--skills-matrix">Tech Stack</a> •
+  <a href="#-experience">Experience</a> •
   <a href="#-contact">Contact</a>
 </p>
 
@@ -26,110 +23,67 @@
 
 ---
 
-## About me
-I design and ship **CV/VL systems** end‑to‑end: data → training → evaluation → demo.  
-Recent work includes **data‑free knowledge distillation** for compact models and **NIR deepfake detection**.  
-Open to **AI/ML Engineer** roles where model quality, reliability, and time‑to‑impact matter.
+## 🚀 About Me
+I specialize in building and deploying **Generative AI, RAG, and Agentic AI systems** end-to-end.  
+Currently pursuing my M.Tech in Artificial Intelligence at IIT Jodhpur, I have extensive experience orchestrating multi-agent workflows, optimizing LLM inference, and designing scalable API architectures.  
+I'm passionate about engineering reliable, stateful AI agents equipped with multi-turn memory, guardrails, and deterministic validators.
 
-### What I’m good at
-- **Hands‑on ML engineering**: clean data pipelines, reproducible training, robust evaluation, CI for model code.
-- **DL for vision & VL**: BLIP/CLIP/SigLIP, CNNs, ConvLSTMs, attention, contrastive / KD objectives.
-- **MLOps & delivery**: Dockerized training/inference, experiment tracking, model packaging, Gradio/Spaces demos.
-- **Product lens**: translate goals into metrics (AUROC/AUPRC/EER, SMAPE), demo fast, iterate with evidence.
-
----
-
-## Featured projects
-
-### 1) Adversarial Knowledge Distillation (AKD) — PyTorch
-Distills a **ResNet‑34 teacher** into **compact ResNet‑18 students** using a lightweight generator (no original training data). Clean modules (models/engine/utils), scripts for training/eval, and run tracking.
-- **Why it matters:** privacy‑preserving model shrinking for **edge deployment** (latency/VRAM constraints).  
-- **Focus:** KD scheduling, generator‑driven synthesis, reproducibility (config logs & checkpoints).  
-- **Links:** <a href="https://github.com/Princu1999/Data-Free-Knowledge-Distillation">Repository</a>
-
-### 2) VisionNarrate — BLIP‑based Image Narration (Accessibility)
-Generates **context‑aware, emotion‑sensitive** descriptions for visually‑impaired users; modular fine‑tuning + eval.
-- **Impact:** METEOR **0.42** (vs 0.28 baseline), BLEU‑4 **0.18** (vs 0.12).  
-- **Stack:** PyTorch + BLIP; Gradio for demo; reproducible scripts.  
-- **Links:** <a href="https://github.com/Princu1999/VisionNarrate">Repository</a> • <a href="https://huggingface.co/Princu1999">Hugging Face</a>
-
-### 3) NIR‑FAKE — Deepfake Detection Dataset (Research)
-Curating a near‑infrared dataset with **face‑swap** and **complete‑body‑removal** forgeries; standardized **eval protocol** (AccR/AccF/OvA, **AUROC**, **AUPRC**, **EER**, **FPR@TPR**).
-- **Why it matters:** extends detection to **low‑light/surveillance** contexts beyond RGB.  
-- **Links:** <a href="https://github.com/Princu1999/NIR-FAKE">Repository</a>
-
-### 4) Cloud Movement Prediction — ConvLSTM Nowcasting (contrib.)
-End‑to‑end pipeline with **Stacked ConvLSTM** + optical flow for cloud detection/motion.
-- **Use cases:** weather risk, solar energy planning, aviation.  
-- **Links:** <a href="https://github.com/Vimal9900/Satellite-Imagery-Based-Cloud-Detection-and-Movement-Prediction">Upstream repo</a> • <a href="https://huggingface.co/spaces/Princu1999/Cloud_Predictor_App">HF Space</a>
-
-### 5) Credit‑Card Customer Segmentation — Unsupervised ML
-Clustering via **K‑Means / GMM / DBSCAN**, profiling customer behavior to drive targeted campaigns.
-- **Business lens:** cohort insights, churn risk flags, and cross‑sell strategies.  
-- **Links:** <a href="https://github.com/Princu1999/Credit-Card-Customer-Segmentation">Repository</a>
-
+### 🌟 What I do best
+- **Agentic Workflows**: Designing stateful ReAct agents and tool orchestration pipelines using LangGraph and CrewAI.
+- **RAG & Vector Search**: Hybrid retrieval, chunking strategies, and vector DB integrations (Qdrant, FAISS, ChromaDB, Cosmos DB).
+- **Backend & MLOps**: Packaging models into Dockerized FastAPI services, ready for scalable deployment on Azure/GCP.
+- **AI Safety & Eval**: Building LLM guardrails (toxicity/PII redaction), hallucination validators, and rigorous evaluation pipelines.
 
 ---
 
-## Project snapshots
-| Project | What it solves | Key metrics | Links |
-|---|---|---|---|
-| **VisionNarrate** | Accessible image captions | METEOR **0.42**, BLEU‑4 **0.18** | [Repo](https://github.com/Princu1999/VisionNarrate) • [HF](https://huggingface.co/Princu1999) |
-| **AKD (data‑free)** | Shrink models without data | Compact ResNet‑18 variants (~50% / ~20%) | [Repo](https://github.com/Princu1999/Data-Free-Knowledge-Distillation) |
-| **NIR‑FAKE** | Deepfake detection (NIR) | AUROC/AUPRC/EER protocol | [Repo](https://github.com/Princu1999/NIR-FAKE) |
-| **Cloud Nowcasting** | ConvLSTM + OF motion | Qualitative demo | [Demo](https://huggingface.co/spaces/Princu1999/Cloud_Predictor_App) |
-| **Customer Segmentation** | Marketing cohorts | Cluster profiles (K‑Means/GMM/DBSCAN) | [Repo](https://github.com/Princu1999/Credit-Card-Customer-Segmentation) |
+## 💻 Featured Projects
+
+### 1) Autonomous Financial AI Agent
+Engineered a stateful ReAct AI agent to parse unstructured language into database transactions.
+- **Key Features:** Groq LPU inference and asynchronous SSE streaming for ultra-low latency (`<500ms TTFT`).
+- **Security:** 7-stage dual-direction guardrail pipeline for prompt injection, toxicity, and PII redaction (`<15ms` overhead).
+- **Tech Stack:** Python, LangGraph, Groq, In-memory regex.
+
+### 2) Agentic AI Support Ticket System
+An agentic support automation platform that triages customer tickets, predicts priority, and drafts contextual responses.
+- **Key Features:** RAG workflow via ChromaDB & Sentence Transformers. Multi-turn context memory via PostgreSQL checkpointers.
+- **Performance:** Evaluated at **94%** classification accuracy with an end-to-end latency of **1.8s**.
+- **Tech Stack:** FastAPI, LangGraph, Granite/Ollama, Streamlit, Parquet.
+
+### 3) Agentic RAG System
+Local-first document question answering system with hybrid dense+sparse retrieval for improved relevance.
+- **Key Features:** Query rewriting, conversation memory compression, and tool-based retrieval orchestration.
+- **Pipeline:** PDF-to-Markdown ingestion, hierarchical parent/child chunking, and metadata preservation.
+- **Tech Stack:** LangChain, LangGraph, Qdrant, Ollama, Gradio.
+
+### 4) VisionNarrate - Image Narration (Accessibility)
+BLIP-based image narration system for visually impaired users capturing contextual and emotional cues.
+- **Impact:** Outperformed baselines with METEOR **0.42** and BLEU-4 **0.18**.
+- **Tech Stack:** PyTorch, BLIP, Hugging Face Spaces, W&B.
+
+### 5) Cloud Image Processing Service
+A containerized REST microservice for scalable image ingestion, transformation, and delivery.
+- **Tech Stack:** FastAPI, Docker, GCP-ready, Structured logging.
 
 ---
 
-## Tech stack & Skills matrix
-**Languages**: Python, C/C++  
-**DL/ML**: PyTorch, TensorFlow/Keras, Hugging Face Transformers/PEFT, scikit‑learn, OpenCV  
-**Data/Viz**: NumPy, Pandas, Matplotlib/Plotly  
-**MLOps/Infra**: Docker, GitHub Actions, MLflow/W&B (workflow‑ready), Gradio/Spaces, Linux
+## 🛠 Tech Stack & Skills
 
-| Area | Strong | Working |
-|---|---|---|
-| CV/VL | PyTorch, BLIP/CLIP/SigLIP, OpenCV | ONNX, TensorRT |
-| Modeling | KD/contrastive, CNNs, ConvLSTM | LoRA/QLoRA |
-| MLOps | Docker, GH Actions, packaging | MLflow/W&B |
-| Data & Eval | Pandas/NumPy; AUROC/AUPRC/EER, SMAPE | Spark (basic) |
+**Generative AI**: LangGraph, LangChain, CrewAI, Prompt Engineering, Agentic AI orchestration  
+**LLMs & Search**: Hugging Face, PyTorch, LoRA/QLoRA, Sentence Transformers, Qdrant, FAISS, Cosmos DB, ChromaDB  
+**ML & Data**: Python, SQL, Pandas, NumPy, Scikit-Learn  
+**Deployment & MLOps**: FastAPI, Docker, MLflow, W&B, Airflow, Azure AI, GCP  
 
 ---
 
-## How I work
-- **Reproducible runs:** fixed seeds, saved configs, deterministic backends.  
-- **Clear eval:** task‑appropriate metrics (AUROC/AUPRC/EER, SMAPE) + ablations.  
-- **Deployable demos:** Gradio/Spaces for fast stakeholder feedback.  
-- **Code quality:** modular design, typed functions (where useful), CI checks.
+## 💼 Experience
 
-<!-- Example CI badge you can place on repo READMEs -->
-<!-- ![CI](https://github.com/Princu1999/Data-Free-Knowledge-Distillation/actions/workflows/ci.yml/badge.svg) -->
-
-<details>
-<summary><b>Minimal CI template (drop into .github/workflows/ci.yml)</b></summary>
-
-```yaml
-name: CI
-on: [push, pull_request]
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-      - run: pip install -r requirements.txt || true
-      - run: python -m pip install ruff pytest || true
-      - run: ruff check .
-      - run: pytest -q || true
-```
-</details>
+- **Machine Learning Intern @ ZinkML** _(Mar 2025 - Jun 2025)_: Packaged baseline models into consistent trainer APIs. Implemented reusable feature engineering pipelines and validation strategies. Leveraged Copilot and Claude for accelerated script development.
+- **ETL Developer @ Cognizant** _(Jun 2022 - Jun 2024)_: Built and operated batch data pipelines using Python, SQL, and Apache Airflow, improving daily processing time by 45% and pipeline reliability.
 
 ---
 
-## 📈 GitHub stats
+## 📈 GitHub Stats
 <p align="center">
   <img height="170" src="https://github-readme-stats.vercel.app/api?username=Princu1999&show_icons=true&count_private=true&rank_icon=github&cache_seconds=7200" />
   <img height="170" src="https://streak-stats.demolab.com?user=Princu1999&cache_seconds=7200" />
@@ -140,44 +94,7 @@ jobs:
 
 ---
 
-## Top repositories (stable cards)
-<p align="center">
-  <a href="https://github.com/Princu1999/VisionNarrate">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Princu1999&repo=Vision-Narrate&cache_seconds=7200" />
-  </a>
-  <a href="https://github.com/Princu1999/NIR-FAKE">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Princu1999&repo=NIR-FAKE&cache_seconds=7200" />
-  </a>
-</p>
-<p align="center">
-  <a href="https://github.com/Princu1999/Credit-Card-Customer-Segmentation">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Princu1999&repo=Credit-Card-Customer-Segmentation&cache_seconds=7200" />
-  </a>
-  <a href="https://github.com/Princu1999/Data-Free-Knowledge-Distillation">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Princu1999&repo=Data-Free-Knowledge-Distillation&cache_seconds=7200" />
-  </a>
-</p>
-
----
-
-## Developer quote
-<p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=vertical&theme=default&quoteCategory=programming" alt="dev quote"/>
-</p>
-
----
-
-## Contact
+## 📬 Contact
 - Email: <a href="mailto:princusingh252@gmail.com">princusingh252@gmail.com</a>  
 - LinkedIn: <a href="https://www.linkedin.com/in/princu1999/">@princu1999</a>  
 - Hugging Face: <a href="https://huggingface.co/Princu1999">Princu1999</a>  
-- GitHub: <a href="https://github.com/Princu1999">@Princu1999</a>
-
----
-
-<!-- How to use
-1) Create a repo named exactly your username: `Princu1999`.
-2) Place this file as README.md at the root of that repo (it becomes your profile page).
-3) Add assets/hero.png (840–960 px). If you don’t want a banner, remove the <img> tag at the top.
-4) Pin the four repos shown under “Top repositories” to match the cards.
--->
